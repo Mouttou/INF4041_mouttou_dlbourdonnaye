@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toastSaver">Alarm saved at </string>
+    <string name="failed">Failed</string>
+    <string name="succeed">Download succeed</string>
+    <string name="app_name">Alarm</string>
+</resources>
