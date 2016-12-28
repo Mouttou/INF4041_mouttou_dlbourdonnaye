@@ -70,7 +70,7 @@ public class GetBieresService extends IntentService {
             if(HttpURLConnection.HTTP_OK == conn.getResponseCode()) {
                 copyInputStreamToFile(conn.getInputStream(), new File(getCacheDir(), "bieres.json"));
                 Log.d(TAG, "Bieres json downloaded !");
-                LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(MainActivity.BIERES_UPDATE));
+                LocalBroadcastManager.getInstance(this).sendBroadcast(new Intent(Request.BIERES_UPDATE));
             }
         } catch (IOException e) {
             e.printStackTrace();
