@@ -1,7 +1,9 @@
 MOUTTOUNADARADJANE Nathalie<br/>
 DE LA BOURDONNAYE Benoit
 
-#Projet Alrm MultiTask
+<center> Programation Mobile - INF4041 </center>
+
+#Projet Alarm MultiTask
 
 Cette application a pour but d'utiliser les différentes notions appris au cours de ce mdule.
 Elle permet de définir une alarme, d'aller sur Google, accéder à une liste de Biere qu'on va afficher dans une nouvel activité à l'aide d'un Recycler view.
