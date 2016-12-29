@@ -6,7 +6,7 @@ DE LA BOURDONNAYE Benoit
 #Projet Alarm MultiTask
 
 Cette application a pour but d'utiliser les différentes notions appris au cours de ce mdule.
-Elle permet de définir une alarme, d'aller sur Google, accéder à une liste de Biere qu'on va afficher dans une nouvel activité à l'aide d'un Recycler view.
+Elle permet de définir une alarme, d'aller sur Google et d'accéder à une liste de Biere qu'on va afficher dans une nouvel activité à l'aide d'un Recycler view.
 
 ##Specifications requises réalisées
 
@@ -25,3 +25,11 @@ Elle permet de définir une alarme, d'aller sur Google, accéder à une liste de
 
 - TimePickerDialog pour choisir l'heure de l'alarme
 - Nouveau logo pour l'application
+
+#Utilisation de l'application
+
+-Bouton + sur le toolbar: Affiche un toast
+-CheckBox à côté du XX:XX permet d'afficher le TimePickerDialog qui va permettre de choisir l'heure
+- Bouton Google: Appel du navigateur internet qui va afficher le lien de google
+- Bouton Biere: Ouverture d'une nouvelle activity qui va télécharger les données et afficherles données JSon à l'aide d'un RecyclerView
+- En tournant le téléphone en landscape on va avoir un textField qui va afficher "Landscape mode!"
