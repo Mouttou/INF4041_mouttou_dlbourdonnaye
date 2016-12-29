@@ -3,4 +3,6 @@
     <string name="toastSaver">Alarme enregistrée à </string>
     <string name="failed">Echouée</string>
     <string name="succeed">ça marche!</string>
+    <string name="toolbarB">Boutton toolbar</string>
+    <string name="ToolbarUse">Using ToolBar</string>
 </resources>

@@ -4,4 +4,6 @@
     <string name="failed">Echouée</string>
     <string name="succeed">Téléchargement réussi!</string>
     <string name="app_name">Alarme</string>
+    <string name="toolbarB">Bouton de la barre de menu</string>
+    <string name="ToolbarUse">Utilisation du toolbar</string>
 </resources>

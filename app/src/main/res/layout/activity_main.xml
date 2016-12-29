@@ -32,20 +32,31 @@
         android:layout_alignBottom="@+id/button3"
         android:layout_alignParentStart="true" />
 
-    <CheckBox android:layout_height="wrap_content"
-        android:layout_width="fill_parent" android:text="XX: XX" android:id="@+id/heure"
-        android:textSize="40dip" android:gravity="center" android:onClick="changeHeure"
-        android:textColor="#F5F1DE"
-        android:layout_marginTop="57dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="11dp" />
-
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/toolbar"
-        android:background="@color/toolcouleur">
+        android:background="@color/toolcouleur"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"></android.support.v7.widget.Toolbar>
 
-    </android.support.v7.widget.Toolbar>
+    <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <CheckBox android:layout_height="wrap_content"
+        android:layout_width="fill_parent" android:text="XX: XX" android:id="@+id/heure"
+        android:textSize="40dip" android:gravity="center" android:onClick="changeHeure"
+        android:textColor="#F5F1DE"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="113dp" />
+
+
 </RelativeLayout>

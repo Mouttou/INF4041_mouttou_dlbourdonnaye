@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Alarm alarm = new Alarm();
     android.text.format.Time t = new android.text.format.Time();
     Button bouton5;
+    Button bouton2;
     ListView recyclerList;
 
 
@@ -50,12 +51,20 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             };
         });
+        bouton2 = (Button) findViewById(R.id.button2);
+
+        bouton2.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), R.string.toolbarB, Toast.LENGTH_LONG).show();
+            };
+        });
 
 
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setSubtitle("Using ToolBar");
+        getSupportActionBar().setSubtitle(getString(R.string.ToolbarUse));
     }
 
 
